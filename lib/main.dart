@@ -113,7 +113,7 @@ class _BerandaState extends State<Beranda> {
             _teksDetail("🏁 Akhir Bulan", j.endOf(Unit.month).yMMMMd), //akhir bulan dari tgl yg dipilih
             _teksDetail("📅 Hari ke-", "${j.dayOfYear} dalam setahun"), //hari ke berapda dlm tahun tsb
             _teksDetail("🔍 Perbandingan", j.isBefore(skrg) ? "lampau" : "Mendatang"), //dia masa lampau atau masa mendatang
-            const SizedBox(height: 20), //kasih jarak antara data dengan tombol hapus
+            const SizedBox(height: 20), 
           ],
         ),
       ),
